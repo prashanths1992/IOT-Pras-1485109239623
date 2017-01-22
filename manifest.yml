@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IOT-Pras
+  host: IOT-Pras
+  disk_quota: 1024M
+  services:
+  - IOT-Pras-cloudantNoSQLDB
+  - IOT-Pras-iotf-service
